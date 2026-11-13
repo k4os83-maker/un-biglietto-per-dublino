@@ -26,7 +26,7 @@ h2{font:400 clamp(40px,8vw,64px)/.95 'Bebas Neue',sans-serif;letter-spacing:.01e
 
 /* hero */
 .hero{background:var(--ink);color:#fff;overflow:hidden}
-.hero .wrap{display:grid;gap:8px;padding-top:36px}
+.hero .wrap{display:grid;gap:8px;padding-top:36px;padding-bottom:56px}
 .hero .pre{font:italic 400 clamp(30px,6.5vw,52px)/1 Fraunces,Georgia,serif}
 .hero h1{font:400 clamp(110px,31vw,210px)/.82 'Bebas Neue',sans-serif;letter-spacing:.005em}
 .hero h1,.hero .pre{position:relative;z-index:2}
@@ -47,6 +47,7 @@ h2{font:400 clamp(40px,8vw,64px)/.95 'Bebas Neue',sans-serif;letter-spacing:.01e
 @media(min-width:860px){
   .hero-grid{grid-template-columns:1fr 1.05fr}
   .photo{margin:0;margin-top:-90px;order:0;z-index:1}
+  .hero .wrap{padding-bottom:0}
 }
 
 section{padding:64px 0}
