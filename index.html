@@ -7,7 +7,7 @@
 <meta name="description" content="La lotteria di beneficenza dell'Oratorio SS. Redentore di Monserrato per portare Alice e Beatrice e il loro abito Beyond The Cage alla finale mondiale di Junk Kouture a Dublino. 54 premi, biglietto 3 €.">
 <meta property="og:title" content="Un biglietto per Dublino">
 <meta property="og:description" content="Aiutaci a portare Alice e Beatrice alla finale mondiale di Junk Kouture. 54 premi, biglietto 3 €.">
-<meta property="og:image" content="img/alice-beatrice.jpg">
+<meta property="og:image" content="img/alice-beatrice-v2.jpg">
 <meta name="theme-color" content="#1d1916">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,6 +75,17 @@ section{padding:64px 0}
 .step b{font:400 30px/1.05 'Bebas Neue';display:block;margin-bottom:6px;color:var(--yel)}
 .step p{color:#d8cfc4;font-size:15px}
 .goal{margin-top:24px;background:var(--ink2);border-radius:16px;padding:22px}
+.contatti{margin-top:24px;background:var(--ink2);border-radius:16px;padding:22px}
+.contatti h3{font:400 30px/1.05 'Bebas Neue',sans-serif;color:var(--yel);margin-bottom:6px}
+.contatti > p{color:#d8cfc4;font-size:15px}
+.contatti ul{list-style:none;display:grid;gap:12px;margin-top:12px}
+@media(min-width:760px){.contatti ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.contatti li{display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:space-between;background:#ffffff0d;border-radius:12px;padding:12px 16px}
+.contatti li b{display:block;font-size:17px}
+.contatti li span{color:#d8cfc4;font-size:15px}
+.contatti .azioni{display:flex;gap:8px}
+.contatti .btn{padding:10px 16px;font-size:15px}
+.contatti .btn.ghost{margin-left:0}
 .bar{height:14px;border-radius:99px;background:#ffffff1f;overflow:hidden;margin:12px 0 6px}
 .bar i{display:block;height:100%;width:2%;background:linear-gradient(90deg,#E63946,#F4A019,#E8559A,#F2C14E,#2BA59A,#7B5EA7)}
 .note{font-size:13px;color:#bfb4a8;margin-top:12px}
@@ -140,7 +151,7 @@ footer .legal{max-width:820px;color:#a99e92}
         <p><a class="btn" href="#premi">Guarda i premi</a><a class="btn ghost" href="#storia">La storia</a></p>
       </div>
       <figure class="photo">
-        <img src="img/alice-beatrice.jpg" width="1116" height="1424" alt="Alice, con l'abito Beyond The Cage coperto di fiori di pelle colorati, e Beatrice, vestita di nero con una scarpa rossa in mano">
+        <img src="img/alice-beatrice-v2.jpg" width="1200" height="1500" alt="Alice, con l'abito Beyond The Cage coperto di fiori di pelle colorati, e Beatrice, vestita di nero con una scarpa rossa in mano">
         <figcaption>Alice e Beatrice con «Beyond The Cage»</figcaption>
       </figure>
     </div>
@@ -172,12 +183,20 @@ footer .legal{max-width:820px;color:#a99e92}
     <p class="eyebrow">Come funziona</p>
     <h2>Un biglietto, 54 possibilità</h2>
     <div class="steps">
-      <div class="step"><b>1 · Compra il biglietto</b><p>Costa 3 €. Si compra solo di persona: nelle attività che hanno offerto i premi, all'Oratorio e dai nostri volontari.</p></div>
+      <div class="step"><b>1 · Compra il biglietto</b><p>Costa 3 €. Si compra solo di persona: nelle attività che hanno offerto i premi, all'Oratorio e dai nostri volontari, oppure chiamando Roberta o Monica.</p></div>
       <div class="step"><b>2 · Segui l'estrazione</b><p>Domenica 10 gennaio 2027, ore 16:00, Saloni della Parrocchia SS. Redentore, Monserrato. L'estrazione è pubblica: vieni a tifare con noi.</p></div>
       <div class="step"><b>3 · Controlla i numeri</b><p>I numeri vincenti saranno pubblicati su questa pagina e nella bacheca della parrocchia entro 3 giorni. I premi si ritirano entro 30 giorni.</p></div>
     </div>
+    <div class="contatti" id="contatti">
+      <h3>Per i biglietti</h3>
+      <p>Chiama o scrivi su WhatsApp a Roberta o Monica.</p>
+      <ul>
+        <li><div><b>Roberta</b><span>333 249 0026</span></div><div class="azioni"><a class="btn" href="tel:+393332490026">Chiama</a><a class="btn ghost" href="https://wa.me/393332490026">WhatsApp</a></div></li>
+        <li><div><b>Monica</b><span>342 726 0033</span></div><div class="azioni"><a class="btn" href="tel:+393427260033">Chiama</a><a class="btn ghost" href="https://wa.me/393427260033">WhatsApp</a></div></li>
+      </ul>
+    </div>
     <div class="goal">
-      <p class="note" style="margin-top:0;font-size:16px;color:#e8e0d6">Il ricavato sostiene il viaggio di Alice, Beatrice e delle loro accompagnatrici alla finale. Ogni biglietto conta: con 2.000 biglietti venduti ci siamo.</p>
+      <p class="note" style="margin-top:0;font-size:16px;color:#e8e0d6">Il ricavato sostiene il viaggio di Alice, Beatrice e delle loro accompagnatrici alla finale. I biglietti sono 3.000: ogni biglietto conta, aiutaci a venderli tutti.</p>
     </div>
   </div>
 </section>
